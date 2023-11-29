@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cal.css" rel="stylesheet">
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="calculator">
+     <div class="output">
+    <input type="text" id="screen">
+     </div>
+    <div class="button-row">
+        <button id="dete" onclick="clear1()">C</button>
+        <div class="button1">
+        <button class="button-style" onclick="ButtonActionseven(7)">7</button>
+        <button class="button-style" onclick="ButtonActioneight(8)">8</button>
+        <button class="button-style" onclick="ButtonActionnine(9)">9</button>
+        <button class="button-style"onclick="operationdiv('/')">/</button>
+     </div>
+     <div class="button2">
+        <button class="button-style" onclick="ButtonActionfour(4)">4</button>
+        <button class="button-style" onclick="ButtonActionfive(5)">5</button>
+        <button class="button-style" onclick="ButtonActionsix(6)">6</button>
+        <button class="button-style" onclick="operationmul()">X</button>
+     </div>
+     <div class="button3">
+        <button class="button-style" onclick="ButtonActionone(1)">1</button>
+        <button class="button-style" onclick="ButtonActiontwo(2)">2</button>
+        <button class="button-style" onclick="ButtonActionthree(3)">3</button>
+        <button class="button-style"onclick="operationsub()">-</button>
+     </div>
+     <div class="button4">
+        <button class="button-style"onclick="ButtonActiondot('.')">.</button>
+        <button class="button-style"onclick="ButtonActionzero(0)">0</button>
+        <button class="button-style"onclick="operationplus()">+</button>
+        <button class="button-style"onclick="EqualClick()">=</button>
+     </div>
+
+
+    </div>
+    </div>
+</body>
+</html>

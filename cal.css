@@ -1,0 +1,29 @@
+.calculator{
+    height: 520px;
+    width: 420px;
+    border: solid 1px;
+    margin-left: 500px;
+    margin-top: 60px;
+    background-color: gray;
+}
+#screen{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 337px;
+    height: 39px;
+    pointer-events: none;
+}
+.button-style{
+    height: 40px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: yellowgreen;
+}
+#dete{
+    height: 40px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: yellowgreen;
+}
